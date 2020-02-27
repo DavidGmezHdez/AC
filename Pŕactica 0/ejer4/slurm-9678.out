@@ -1,0 +1,26 @@
+Id. usuario del trabajo: c3estudiante8
+Id. del trabajo: 9678
+Nombre del trabajo especificado por usuario: helloOMP2
+Directorio de trabajo (en el que se ejecuta el script):
+/home/c3estudiante8/bp0/ejer4
+Cola: ac
+Nodo que ejecuta este trabajo:atcgrid
+No de nodos asignados al trabajo: 1
+Nodos asignados al trabajo: atcgrid1
+CPUs por nodo: 24
+
+ 1. Ejecución helloOMP2 una vez sin cambiar no de threads (valor
+por defecto):
+
+(0:Hello )(10:Hello )(8:Hello )(7:Hello )(9:Hello )(6:Hello )(1:Hello )(5:Hello )(3:Hello )(4:Hello )(2:Hello )(11:Hello )(7: world)(9: world)(5: world)(1: world)(0: world)(6: world)(4: world)(3: world)(2: world)(11: world)(10: world)(8: world)(7:Hello )(3:Hello )(8:Hello )(6:Hello )(9:Hello )(1:Hello )(5:Hello )(10:Hello )(4:Hello )(11:Hello )(0:Hello )(2:Hello )(1: world)(7: world)(9: world)(0: world)(2: world)(10: world)(11: world)(4: world)(6: world)(5: world)(3: world)(8: world)
+ 2. Ejecución helloOMP2 varias veces con distinto no de threads:
+
+
+ - Para 12 threads:
+(9:Hello )(1:Hello )(10:Hello )(8:Hello )(4:Hello )(5:Hello )(2:Hello )(3:Hello )(0:Hello )(6:Hello )(7:Hello )(11:Hello )(0: world)(9: world)(5: world)(8: world)(2: world)(7: world)(3: world)(11: world)(6: world)(10: world)(1: world)(4: world)(2:Hello )(0:Hello )(9:Hello )(11:Hello )(5:Hello )(6:Hello )(4:Hello )(3:Hello )(8:Hello )(10:Hello )(1:Hello )(7:Hello )(11: world)(3: world)(6: world)(4: world)(7: world)(0: world)(9: world)(2: world)(5: world)(8: world)(1: world)(10: world)
+ - Para 6 threads:
+(1:Hello )(5:Hello )(4:Hello )(0:Hello )(3:Hello )(2:Hello )(1: world)(5: world)(3: world)(0: world)(2: world)(4: world)(1:Hello )(0:Hello )(3:Hello )(4:Hello )(5:Hello )(2:Hello )(1: world)(5: world)(4: world)(2: world)(0: world)(3: world)
+ - Para 3 threads:
+(1:Hello )(0:Hello )(2:Hello )(1: world)(0: world)(2: world)(1:Hello )(0:Hello )(2:Hello )(1: world)(2: world)(0: world)
+ - Para 1 threads:
+(0:Hello )(0: world)(0:Hello )(0: world)

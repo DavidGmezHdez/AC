@@ -6,7 +6,7 @@ gcc -O2 -fopenmp -o HelloOMP HelloOMP.c
 
 int main(void) {
 #pragma omp parallel
-    printf("(%d:Hello world!!!)",
+    printf("(%d:!!!Hello world!!!)",
     omp_get_thread_num());
     return(0);
 }
